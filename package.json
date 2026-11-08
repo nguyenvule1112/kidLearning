@@ -1,0 +1,22 @@
+{
+  "name": "be-hoc-vui",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "emoji": "node scripts/copy-emoji.mjs",
+    "dev": "npm run emoji && vite --host",
+    "build": "npm run emoji && vite build",
+    "preview": "vite preview --host",
+    "start": "npm run build && vite preview --host",
+    "icons": "node scripts/make-icons.mjs",
+    "voice": "node scripts/prewarm-voice.mjs",
+    "deploy": "npm run build && gh-pages -d dist --dotfiles"
+  },
+  "devDependencies": {
+    "@twemoji/svg": "^15.0.0",
+    "gh-pages": "^6.3.0",
+    "msedge-tts": "^2.1.1",
+    "vite": "^6.0.0"
+  }
+}
