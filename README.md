@@ -31,7 +31,7 @@ npm run voice        (cửa sổ 2)
 ```
 
 ## Đưa lên mạng miễn phí (GitHub Pages, không cần mua tên miền)
-Link sẽ có dạng `https://TEN-GITHUB.github.io/be-hoc-vui/`.
+Link sẽ có dạng `https://nguyenvule1112.github.io/kidLearning/`.
 
 **Lần đầu:**
 1. Tạo tài khoản https://github.com và cài Git: https://git-scm.com/download/win

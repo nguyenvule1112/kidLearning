@@ -7,5 +7,5 @@ where git >nul 2>&1 || (echo Chua cai Git. Tai tai https://git-scm.com/download/
 call npm install --no-audit --no-fund
 call npm run deploy
 echo.
-echo Xong! Doi 1-2 phut roi mo link https://TEN-GITHUB.github.io/be-hoc-vui/
+echo Xong! Doi 1-2 phut roi mo link https://nguyenvule1112.github.io/kidLearning/
 pause
